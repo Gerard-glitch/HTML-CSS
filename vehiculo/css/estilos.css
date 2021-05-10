@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+}
+
+table {
+  width: 80%;
+  border: solid 1px;
+  
+}
+
+table, tr, td, th {
+  width: 60%;
+  text-align: center;
+  border: solid 7px;
+  font-family: 'Ravi Prakash', cursive;
+  color: rgb(0, 0, 0);
+  border-radius: 5%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table {
+  background: rgb(0, 0, 0);
+}
+
+table th {
+  background-color: rgb(253, 217, 100);
+}
+
+table td {
+  background-color: rgb(250, 137, 31);
+}
+
+table {
+  font-size: 12px;
+  margin: 45px;
+  width: 80%;
+  text-align: left;
+}
+
+th {
+  font-size: 30px;
+  font-weight: normal;
+  padding: 8px;
+  background: #b9c9fe;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+td {
+  font-size: 25px;
+  padding: 5px;
+  background: rgb(255, 181, 111);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border-top: 1px solid transparent;
+}
+
+tr:hover td {
+  background: rgb(255, 181, 111);
+  color: rgb(0, 0, 0);
+}
+
+table {
+  margin: auto;
+}
+
+table td img {
+  width: 200px;
+}
+

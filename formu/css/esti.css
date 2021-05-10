@@ -1,0 +1,29 @@
+body {
+font-size: 40.1px;
+text-align: center;
+background-color: rgb(82, 114, 141);
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+margin-top: 110px;
+}
+input[type=submit] {
+    width: 10%;
+    padding: 7px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 196, 0);
+    font-size: 20px;
+    border: 4px solid rgb(51, 51, 51);
+    border-radius: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    cursor: pointer;
+    margin-left: 230px;
+}
+
+img {
+    margin-top: 90px;
+    text-align: center;
+    width: 230px; height: 230px;
+}
+
+

@@ -1,0 +1,119 @@
+fieldset {
+    background-color: rgb(255, 196, 70);
+    border-radius: 22px;
+    text-align: center;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 580px;
+    padding: 35px;
+    border-color: black;
+    border-width: 7px;
+}
+
+
+input {
+    text-align: center;
+}
+
+input[type=text], [type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(51, 51, 51);
+    border-radius: 13px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  input[type=text]:focus {
+    background-color: rgb(218, 233, 255);
+  }
+  input[type=submit] {
+  width: 30%;
+  padding: 7px 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(31, 180, 1);
+  font-size: 20px;
+  border-color: darkblue;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 14px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  cursor: pointer;
+}
+
+  input[type=reset] {
+    width: 30%;
+    padding: 7px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 4, 4);
+    font-size: 20px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    cursor: pointer;
+  }
+
+    select {
+      border: 4px solid rgb(0, 0, 0);
+      width: 40%;
+      padding: 10px 15px;
+      border-radius: 12px;
+      background-color: rgb(218, 248, 255);
+      font-size: 20px;
+      cursor: pointer;
+
+    }
+
+    input[type=date] {
+      border: 4px solid rgb(0, 0, 0);
+      width: 90%;
+      padding: 10px 15px;
+      border-radius: 12px;
+      background-color: rgb(255, 254, 254);
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    input[type=color] {
+      border: 4px solid rgb(0, 0, 0);
+      width: 10%;
+      padding: 10px 15px;
+      border-radius: 12px;
+      background-color: rgb(255, 255, 255);
+      font-size: 20px;
+      cursor: pointer;
+    }
+    
+    input[type=radio] {
+      cursor: pointer;
+    }
+
+legend {
+background-color: rgb(236, 114, 32);
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+border-radius: 8px;
+padding: 23px 60px;
+font-weight: bolder;
+border-color: rgb(0, 0, 0);
+border-width: 7px;
+border: 7px solid rgb(0, 0, 0);
+font-size: 30px;
+}
+label {
+  font-size: 24px;
+  @font-face {
+    font-family: Prompt-Bold;
+    src: url(Prompt-Bold.ttf);
+  }
+}
+body {
+  background-color: rgb(116, 160, 197);
+
+}
+
+
+
+
+
+

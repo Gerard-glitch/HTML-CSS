@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+<body background="img/MonCas.jpg">
+
+
+    <fieldset> <legend>Datos personales</legend>
+
+<form method="post" action="personal.php">
+   <br> <label>Nombres: </label>
+    <input type="text" name="nombres"required> <br> </br>
+    <label>Apellidos: </label>
+    <input type="text" name="apellidos"required> <br> </br>
+    <label>Documento: </label>
+    <input type="text" name="documento"required> <br> </br>
+    <label>Correo: </label>
+    <input type="text" name="correo"required> <br> </br>
+    <label>Contrasena: </label>
+    <input type="password" name="contraseña"required> <br> </br>
+    <label>Fecha: </label> <br> 
+    <input type="date" id="start" name="fecha"value="2018-07-22"required> <br> <br>
+    <label>Color: </label> <br> 
+    <input type="color"> <br> </br>
+    <input type="radio" name="genero" id=""required>Hombre<br></br>
+    <input type="radio" name="genero" id=""required>Mujer<br></br>
+<select name="" id="paises"required> <br>
+    <option value="Mexico">Mexico</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Venezuela">Venezuela</option>
+    <option value="Chile">Chile</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Cuba">Cuba</option>
+    <option value="Salvador">Salvador</option> 
+</select> <br> <br>
+    <input type="reset">
+    <input type="submit" name="Enviar"><br>
+</form>
+    </fieldset>
+
+</body>
+</html>
